@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-height {
+  height: 90vh;
+  max-height: 90vh;
+}
+.footer-height {
+  height: 10vh;
+}
