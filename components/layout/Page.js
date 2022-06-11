@@ -12,7 +12,7 @@ export default function Page({ children, title, description }) {
       <header>
         <Navbar />
       </header>
-      <main className="bg-dark1 ">{children}</main>
+      <main className="bg-dark1">{children}</main>
       <Footer />
     </>
   )

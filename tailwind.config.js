@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'heading': '#ffd188',
-        'cta': '#c5204b',
-        'dark1': '#202531',
-        'dark2': '#081017',
-      }
+        heading: '#ffd188',
+        cta: '#c5204b',
+        dark1: '#202531',
+        dark2: '#081017',
+      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide'), require('tailwind-scrollbar')],
 }

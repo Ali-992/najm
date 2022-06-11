@@ -7,7 +7,7 @@ import NavLinksMobile from '../ui/NavLinksMobile'
 function Nav() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="fixed top-0 left-0 w-full">
+    <div className="fixed top-0 left-0 z-20 w-full">
       <nav className="bg-gray-900">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
