@@ -21,7 +21,7 @@ function Row() {
     <div className="h-96 space-y-1 md:space-y-4">
       <div className="relative md:ml-8">
         <AiOutlineArrowLeft
-          fill="#fff"
+          fill="#222"
           className={`absolute top-0 bottom-0 left-2 z-40 m-auto h-9 w-9 cursor-pointer transition hover:scale-125  `}
           onClick={() => handleClick('left')}
         />
@@ -40,7 +40,7 @@ function Row() {
           <Thumbnail key={9} src="/images/3.jpg" />
         </div>
         <AiOutlineArrowRight
-          fill="#fff"
+          fill="#222"
           className="absolute top-0 bottom-0 right-2 z-40 m-auto h-9 w-9 cursor-pointer transition hover:scale-125 "
           onClick={() => handleClick('right')}
         />

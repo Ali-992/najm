@@ -4,6 +4,7 @@ import Hero from '../components/HomePage/Hero'
 import AboutUs from '../components/HomePage/AboutUs'
 import Partners from '../components/HomePage/Partners'
 import Services from '../components/HomePage/Services'
+import TrustedBy from '../components/HomePage/TrustedBy'
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <AboutUs />
       <Partners />
       <Services />
+      <TrustedBy />
     </Page>
   )
 }

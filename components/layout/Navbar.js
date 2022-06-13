@@ -7,8 +7,8 @@ import NavLinksMobile from '../ui/NavLinksMobile'
 function Nav() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="fixed top-0 left-0 z-20 w-full">
-      <nav className="bg-gray-900">
+    <div className="fixed top-0 left-0 z-20 w-full bg-base-200">
+      <nav className="mx-auto max-w-7xl ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex w-full items-center justify-between">
@@ -16,7 +16,7 @@ function Nav() {
                 <Image
                   src="/images/logo.png"
                   alt="Najm AlMashriq"
-                  width={80}
+                  width={140}
                   height={56}
                 />
               </div>

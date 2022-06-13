@@ -20,11 +20,11 @@ export default function AboutUs() {
           </p>
           <div className="mx-4 mt-8">
             <ListItem text="Machine Equipements , and stuff" />
-            <ListItem text="Machine Equipements , and stuff" />
-            <ListItem text="Machine Equipements , and stuff" />
-            <ListItem text="Machine Equipements , and stuff" />
-            <ListItem text="Machine Equipements , and stuff" />
-            <ListItem text="Machine Equipements , and stuff" />
+            <ListItem text="Logistic Services" />
+            <ListItem text="Event Civil Works" />
+            <ListItem text="Manpower Supply" />
+            <ListItem text="Material Supply" />
+            <ListItem text="Steel Manufacturing" />
           </div>
         </div>
         <div className="mx-4 mt-8 flex flex-1 flex-col justify-center">
