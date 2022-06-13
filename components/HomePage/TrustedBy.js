@@ -5,8 +5,8 @@ import Title from '../ui/Title'
 export default function Partners() {
   return (
     <div className=" bg-gray-200 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
-      <div className="mx-auto max-w-7xl">
-        <Title>Our Partners</Title>
+      <div className="section-height mx-auto max-w-7xl">
+        <Title>Trusted by</Title>
         <Row />
       </div>
     </div>
