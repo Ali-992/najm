@@ -11,7 +11,7 @@ export default function HomePage() {
     <Page>
       <Hero />
       <AboutUs />
-      <Partners />
+      {/* <Partners /> */}
       <Services />
       <TrustedBy />
     </Page>

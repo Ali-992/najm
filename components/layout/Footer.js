@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from 'next/image'
+import React from 'react'
 
 export default function Footer() {
   return (
-    <footer>
-      <div className="footer bg-base-200 p-10 text-base-content">
+    <footer className=" bg-base-200">
+      <div className="footer  mx-auto max-w-7xl p-10 px-4 py-2 text-base-content md:px-6 md:py-8 lg:px-8">
         <div>
           <Image src="/images/logo.png" width={160} height={80}></Image>
           <p className="mt-2 capitalize">
@@ -35,5 +35,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  );
+  )
 }
