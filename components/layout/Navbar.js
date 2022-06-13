@@ -9,9 +9,9 @@ function Nav() {
   return (
     <div className="fixed top-0 left-0 z-20 w-full">
       <nav className="bg-gray-900">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center justify-between w-full">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="flex h-16 items-center justify-between">
+            <div className="flex w-full items-center justify-between">
               <div className="flex-shrink-0">
                 <Image
                   src="/images/logo.png"
@@ -31,18 +31,18 @@ function Nav() {
               </div>
             </div>
             {/* mobile menu */}
-            <div className="flex -mr-2 md:hidden">
+            <div className="-mr-2 flex md:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
-                className="inline-flex items-center justify-center p-2 text-gray-400 bg-gray-900 rounded-md hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                className="inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                 aria-controls="mobile-menu"
                 aria-expanded="false"
               >
                 <span className="sr-only">Open main menu</span>
                 {!isOpen ? (
                   <svg
-                    className="block w-6 h-6"
+                    className="block h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -58,7 +58,7 @@ function Nav() {
                   </svg>
                 ) : (
                   <svg
-                    className="block w-6 h-6"
+                    className="block h-6 w-6"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -89,7 +89,7 @@ function Nav() {
         >
           {(ref) => (
             <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <div ref={ref} className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
                 <NavLinksMobile navName="Home" link="/" />
                 <NavLinksMobile navName="About" link="/about" />
                 <NavLinksMobile navName="Services" link="/services" />
