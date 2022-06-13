@@ -83,7 +83,7 @@ export default function Contact() {
       </div>
       <h2 className="text-4xl font-bold">Contact Us</h2>
       <form
-        className="mt-16 flex min-w-full flex-col gap-4 px-10 lg:mt-20 lg:min-w-[500px]"
+        className="mt-16 flex min-w-[90vw] flex-col gap-4  lg:mt-20 lg:min-w-[500px]"
         onSubmit={handleSubmit}
       >
         {status.info.error && (
