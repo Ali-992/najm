@@ -5,7 +5,7 @@ import SliderImg from '../ui/SliderImg'
 
 function Hero() {
   return (
-    <div className="mt-16 overflow-hidden bg-red-500">
+    <div className="mt-16">
       <Carousel
         autoPlay
         infiniteLoop

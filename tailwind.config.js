@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         heading: '#ffd188',
-        cta: '#c5204b',
+        cta: '#fff',
         dark1: '#202531',
         dark2: '#081017',
       },
