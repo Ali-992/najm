@@ -3,7 +3,7 @@ import Title from '../ui/Title'
 
 function Services() {
   return (
-    <div className=" bg-dark3 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
+    <div className=" bg-base-100 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
       <div className="section-height  mx-auto max-w-7xl ">
         <Title>Our Services</Title>
         <div className="grid h-[80vh] grid-cols-2  gap-2 lg:grid-cols-6 lg:gap-3">

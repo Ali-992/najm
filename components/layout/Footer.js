@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className=" bg-base-200">
+    <footer className=" bg-base-100">
       <div className="footer  mx-auto max-w-7xl p-10 px-4 py-2 text-base-content md:px-6 md:py-8 lg:px-8">
         <div>
           <Image src="/images/logo.png" width={160} height={80}></Image>
@@ -15,10 +15,12 @@ export default function Footer() {
         </div>
         <div>
           <span className="footer-title">Services</span>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">Heavy Equipements Rental</a>
+          <a className="link link-hover">Rental of cranes</a>
+          <a className="link link-hover">
+            construction of residential building
+          </a>
+          <a className="link link-hover"> building renovations</a>
         </div>
         <div>
           <span className="footer-title">Company</span>
@@ -27,7 +29,7 @@ export default function Footer() {
           <a className="link link-hover">Contact</a>
         </div>
       </div>
-      <div className="bg-base-200 text-center md:py-4">
+      <div className="bg-base-100 text-center md:py-4">
         <p className="text-sm">
           © {new Date().getFullYear()}{' '}
           <strong className="text-heading">Najm Al Mashriq</strong>. All rights
