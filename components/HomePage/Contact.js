@@ -68,7 +68,7 @@ export default function Contact() {
       setStatus((prevStatus) => ({ ...prevStatus, submitting: true }))
       axios({
         method: 'POST',
-        url: 'https://formspree.io/f/xrgjdovd',
+        url: 'https://formspree.io/f/xvolylno',
         data: inputs,
       }).then((_response) =>
         handleServerResponse(true, 'Thank You , Message sent successfully')
@@ -143,7 +143,7 @@ export default function Contact() {
                 <input
                   type="text"
                   id="companyName"
-                  name="companyName"
+                  name="Company Name"
                   required
                   maxLength={128}
                   placeholder="Company Name"
