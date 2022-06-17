@@ -20,7 +20,7 @@ export default function Card({ src, title, subTitle }) {
         <p>{subTitle}</p>
         <div className="card-actions justify-end">
           <Link href="/contact">
-            <button className="btn btn-warning">Buy Now</button>
+            <button className="btn btn-warning">Rent Now</button>
           </Link>
         </div>
       </div>
