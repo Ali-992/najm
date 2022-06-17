@@ -11,7 +11,7 @@ export default function Card({
   href,
 }) {
   return (
-    <div className="card bg-base-100 shadow-xl lg:card-side">
+    <div className="card bg-slate-800 shadow-xl lg:card-side">
       <figure>
         <Image src={src} width={600} height={400} />
       </figure>
