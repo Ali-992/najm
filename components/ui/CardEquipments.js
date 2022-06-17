@@ -10,7 +10,7 @@ export default function Card({ src, title, subTitle }) {
       animate={{ opacity: 1 }}
       initial={{ opacity: 0 }}
       exit={{ opacity: 0 }}
-      className="card card-compact  mx-auto w-80 overflow-hidden bg-base-100 px-4 shadow-xl md:w-96"
+      className="card card-compact  mx-auto w-80 overflow-hidden bg-slate-700 px-4 shadow-xl md:w-96"
     >
       <figure>
         <Image src={src} alt="Shoes" width={350} height={225} />
