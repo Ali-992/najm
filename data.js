@@ -69,6 +69,7 @@ export const equipmentsData = [
     title: 'Manlift',
     alt: 'manlifts',
     subTitle: 'ipsum dolor sit amet',
+    genre: 'manlifts',
   },
   {
     id: 10,
