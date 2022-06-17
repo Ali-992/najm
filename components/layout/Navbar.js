@@ -8,7 +8,7 @@ import Link from 'next/link'
 function Nav() {
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="fixed top-0 left-0 z-20 w-full bg-base-100">
+    <div className="fixed top-0 left-0 z-20 w-full bg-dark1">
       <nav className="mx-auto max-w-7xl ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
