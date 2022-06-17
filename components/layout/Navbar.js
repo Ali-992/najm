@@ -1,32 +1,34 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import NavLink from '../ui/NavLink'
 import NavLinksMobile from '../ui/NavLinksMobile'
+import Link from 'next/link'
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false)
-
   return (
     <div className="fixed top-0 left-0 z-20 w-full bg-base-100">
       <nav className="mx-auto max-w-7xl ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             <div className="flex w-full items-center justify-between">
-              <div className="flex-shrink-0">
-                <Image
-                  src="/images/logo.png"
-                  alt="Najm AlMashriq"
-                  width={140}
-                  height={56}
-                />
-              </div>
+              <Link href="/">
+                <div className="flex-shrink-0 cursor-pointer">
+                  <Image
+                    src="/images/logo.png"
+                    alt="Najm AlMashriq"
+                    width={140}
+                    height={56}
+                  />
+                </div>
+              </Link>
               <div className="hidden md:block">
                 <div className="flex items-baseline space-x-4">
                   <NavLink navName="Home" link="/" />
                   <NavLink navName="About" link="/about" />
                   <NavLink navName="Services" link="/services" />
-                  <NavLink navName="Equipements" link="/equipements" />
+                  <NavLink navName="equipments" link="/equipments" />
                   <NavLink navName="Contact" link="/contact" />
                 </div>
               </div>
@@ -81,24 +83,22 @@ function Nav() {
 
         <Transition
           show={isOpen}
-          enter="transition ease-out duration-100 transform"
+          enter="transition ease-out duration-150 transform"
           enterFrom="opacity-0 scale-95"
           enterTo="opacity-100 scale-100"
           leave="transition ease-in duration-75 transform"
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          {(ref) => (
-            <div className="md:hidden" id="mobile-menu">
-              <div ref={ref} className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
-                <NavLinksMobile navName="Home" link="/" />
-                <NavLinksMobile navName="About" link="/about" />
-                <NavLinksMobile navName="Services" link="/services" />
-                <NavLinksMobile navName="Equipements" link="/equipements" />
-                <NavLinksMobile navName="Contact" link="/contact" />
-              </div>
+          <div className="md:hidden" id="mobile-menu">
+            <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
+              <NavLinksMobile navName="Home" link="/" />
+              <NavLinksMobile navName="About" link="/about" />
+              <NavLinksMobile navName="Services" link="/services" />
+              <NavLinksMobile navName="equipments" link="/equipments" />
+              <NavLinksMobile navName="Contact" link="/contact" />
             </div>
-          )}
+          </div>
         </Transition>
       </nav>
     </div>

@@ -19,12 +19,14 @@ export default function Services() {
                 subTitle2="including:
                 Bobcat, flatbed, lowbed, Crane, telehanlder, Pickup trucks, highup truck, jcb backhoe, forklift, towerlight, manlift shilbker, scissor lift"
                 buttonText="show more"
+                href="/equipments"
               />
               <Card
                 src="/images/cranes.jpeg"
                 title="Rental of cranes for construction purposes"
                 subTitle="We are extremely committed to provide our customers with the suitable cranes for any project, in order to deliver an optimum performance and a superior customer experience"
                 buttonText="show more"
+                href="/equipments"
               />
               <Card
                 src="/images/building.jpg"

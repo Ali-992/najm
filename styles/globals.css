@@ -13,6 +13,12 @@
   body {
     @apply bg-[#141414] text-white !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-heading;
   }
+  .btn-filter {
+    @apply mr-2 min-w-[5rem] cursor-pointer rounded-md border-2 border-warning bg-transparent py-2 px-4 text-sm font-bold text-warning active:bg-warning active:text-black md:mr-4 lg:mr-8;
+  }
+  .active {
+    @apply bg-warning text-black;
+  }
 }
 
 .imageSpan {
@@ -30,7 +36,3 @@
   align-items: center;
   margin: 30px auto;
 } */
-
-
-
-
