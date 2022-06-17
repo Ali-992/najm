@@ -26,7 +26,7 @@ function Nav() {
                   <NavLink navName="Home" link="/" />
                   <NavLink navName="About" link="/about" />
                   <NavLink navName="Services" link="/services" />
-                  <NavLink navName="Projects" link="/projects" />
+                  <NavLink navName="Equipements" link="/equipements" />
                   <NavLink navName="Contact" link="/contact" />
                 </div>
               </div>
@@ -94,7 +94,7 @@ function Nav() {
                 <NavLinksMobile navName="Home" link="/" />
                 <NavLinksMobile navName="About" link="/about" />
                 <NavLinksMobile navName="Services" link="/services" />
-                <NavLinksMobile navName="Projects" link="/projects" />
+                <NavLinksMobile navName="Equipements" link="/equipements" />
                 <NavLinksMobile navName="Contact" link="/contact" />
               </div>
             </div>

@@ -8,16 +8,19 @@ import { BsHeadset } from 'react-icons/bs'
 
 export default function AboutUs() {
   return (
-    <div className="section-height   px-4 py-2 sm:px-6 md:py-8 lg:px-8">
+    <div className="section-height px-4 py-2 sm:px-6 md:py-8 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <Title>ABOUT US</Title>
         <div className="flex flex-col items-start justify-center md:flex-row">
           <div className="flex-1 md:mt-10">
             <p className="mx-4 w-5/6 leading-8 text-gray-300">
-              Najm Al Mashriq is a construction company that heavily focused in
-              the rental of heavy and light equipment for construction purposes.
-              We have a team of highly skilled and experienced workers who are
-              dedicated to providing the best service to our clients.
+              <span className="text-lg font-bold text-heading">
+                Najm Al Mashriq
+              </span>{' '}
+              is a construction company that heavily focused in the rental of
+              heavy and light equipment for construction purposes. We have a
+              team of highly skilled and experienced workers who are dedicated
+              to providing the best service to our clients.
             </p>
             <div className="mx-4 mt-8">
               <ListItem text="Construction and building equipment rental with operator" />
