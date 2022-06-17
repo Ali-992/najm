@@ -11,15 +11,14 @@ function Nav() {
     <div className="fixed top-0 left-0 z-20 w-full bg-slate-700">
       <nav className="mx-auto max-w-7xl ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            <div className="flex w-full items-center justify-between">
+          <div className="flex h-16 items-center justify-between ">
+            <div className="flex w-full items-center justify-between ">
               <Link href="/">
-                <div className="flex-shrink-0 cursor-pointer">
-                  <Image
-                    src="/images/logo.png"
+                <div className="w-[180px] cursor-pointer overflow-hidden  lg:h-[48px] lg:w-[240px]">
+                  <img
+                    src="/images/logo-white.png"
                     alt="Najm AlMashriq"
-                    width={140}
-                    height={56}
+                    className="h-full w-full"
                   />
                 </div>
               </Link>

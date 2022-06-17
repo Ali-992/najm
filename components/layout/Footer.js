@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className=" bg-slate-800">
       <div className="footer mx-auto max-w-7xl p-10 px-4 py-2 text-white md:px-6 md:py-8 lg:px-8">
         <div>
-          <Image src="/images/logo.png" width={160} height={80}></Image>
+          <Image src="/images/logo-white.png" width={320} height={80} />
           <p className="mt-2 capitalize">
             <strong className="text-heading">Najm Al Mashriq</strong>{' '}
             Contracting Company.
