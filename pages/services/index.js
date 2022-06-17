@@ -5,6 +5,7 @@ import Card from '../../components/ui/Card'
 import Title from '../../components/ui/Title'
 
 export default function Services() {
+  // fix
   return (
     <Page>
       <main className="mt-16  text-white ">
