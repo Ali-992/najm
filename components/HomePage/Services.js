@@ -4,7 +4,7 @@ import Title from '../ui/Title'
 
 function Services() {
   return (
-    <div className=" bg-base-100 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
+    <div className=" bg-slate-900 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
       <div className="section-height  mx-auto max-w-7xl ">
         <Title>Our Services</Title>
         <Link href="/services">
