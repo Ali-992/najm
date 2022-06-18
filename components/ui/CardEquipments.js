@@ -17,7 +17,7 @@ export default function Card({ src, title, subTitle }) {
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
-        <p>{subTitle}</p>
+        {/* <p>{subTitle}</p> */}
         <div className="card-actions justify-end">
           <Link href="/contact">
             <button className="btn btn-warning">Rent Now</button>
