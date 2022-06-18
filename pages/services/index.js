@@ -6,7 +6,7 @@ import Title from '../../components/ui/Title'
 
 export default function Services() {
   return (
-    <Page>
+    <Page title="Services">
       <main className="mt-16  text-white ">
         <div className="section-height   px-4 py-2 sm:px-6 md:py-8 lg:px-8">
           <div className="mx-auto max-w-7xl">

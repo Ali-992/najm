@@ -11,7 +11,7 @@ export default function Projects() {
   const [filtered, setFiltered] = useState([])
   const [activeGenre, setactiveGenre] = useState('all')
   return (
-    <Page>
+    <Page title="Equipments">
       <main className="mt-16  max-w-[95vw] text-white">
         <div className="mx-auto max-w-7xl">
           <Title> Equipments </Title>

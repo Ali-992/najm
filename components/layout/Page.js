@@ -8,7 +8,7 @@ export default function Page({ children, title, description }) {
   return (
     <>
       <Head>
-        <title>{title ? `${title} - Najm AlMashriq` : 'Najm AlMashriq'}</title>
+        <title>{title ? `${title} | Najm AlMashriq` : 'Najm AlMashriq'}</title>
         <meta
           name="keywords"
           content="rental heavy equipment, Riyadh equipment rental, Dammam equipment rental, Jeddah equipment rental,  Jeddah equipment rental, construction services, project management, project planning, Riyad Light Towers Saudi Arabia, Large Power Generators, Rollers and compactors, Riyadh light equipment rental, Dammam lifting equipment rental, Riyadh construction Equipment, Lifting &amp; Concrete Equipment, Parts &amp; Attachments, Equipment Rentals, Saudi Arabia construction projects, Riyadh concrete pumps, Saudi Arabia specialized workforce, Saudi Arabia construction professionals, Jeddah construction professionals, Riyadh construction professionals, Dammam construction professionals, Cranes rental."

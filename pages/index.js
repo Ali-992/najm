@@ -8,7 +8,7 @@ import Contact from '../components/HomePage/Contact'
 
 export default function HomePage() {
   return (
-    <Page>
+    <Page title="Home">
       <Hero />
       <AboutUs />
       <Services />

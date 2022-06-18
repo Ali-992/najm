@@ -46,11 +46,6 @@ export default function AboutUs() {
               number="240 +"
               text="Satisfied Client"
             />
-            <AchievmentItem
-              icon={<BsHeadset fill="#ffd188" size={36} />}
-              number="130 +"
-              text="Pro Consultants"
-            />
           </div>
         </div>
       </div>
