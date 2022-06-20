@@ -1,11 +1,12 @@
-import React, { useRef, useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { Transition } from '@headlessui/react'
-import Image from 'next/image'
 import NavLink from '../ui/NavLink'
 import NavLinksMobile from '../ui/NavLinksMobile'
 import Link from 'next/link'
+import LangContext from '../../utils/store'
 
 function Nav() {
+  const { en, changeLang } = useContext(LangContext)
   const [isOpen, setIsOpen] = useState(false)
   return (
     <div className="fixed top-0 left-0 z-20 w-full bg-slate-700">
@@ -29,6 +30,7 @@ function Nav() {
                   <NavLink navName="Services" link="/services" />
                   <NavLink navName="equipments" link="/equipments" />
                   <NavLink navName="Contact" link="/contact" />
+                  <button onClick={changeLang}> {en ? 'ar' : 'en'} </button>
                 </div>
               </div>
             </div>

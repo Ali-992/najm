@@ -1,11 +1,14 @@
 import '../styles/globals.css'
 import SizeObserver from '../utils/size-observer'
+import { LangProvider } from '../utils/store'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <SizeObserver>
-      <Component {...pageProps} />
-    </SizeObserver>
+    <LangProvider>
+      <SizeObserver>
+        <Component {...pageProps} />
+      </SizeObserver>
+    </LangProvider>
   )
 }
 

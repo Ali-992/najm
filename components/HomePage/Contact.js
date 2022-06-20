@@ -1,9 +1,12 @@
-import React, { useCallback, useState } from 'react'
+import React, { useCallback, useState, useContext } from 'react'
 import axios from 'axios'
 import Title from '../ui/Title'
 import ContactItem from '../ui/ContactItem'
+import LanguageContext from '../../utils/store'
 
 export default function Contact() {
+  const { en } = useContext(LanguageContext)
+
   const [status, setStatus] = useState({
     submitted: false,
     submitting: false,
@@ -78,31 +81,35 @@ export default function Contact() {
   )
 
   return (
-    <div className=" bg-dark3 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
-      <div className="section-height  mx-auto max-w-7xl ">
-        <Title>Contact Us</Title>
+    <div className="bg-dark3 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
+      <div className={`section-height mx-auto max-w-7xl ${en ? '' : 'rtl'}`}>
+        <Title>{en ? 'Contact Us' : 'تواصل معنا'}</Title>
         <div className="mt-12 flex flex-col gap-12  md:flex-row lg:mt-16">
           <div className="grid w-1/2 grid-cols-1 gap-2 lg:grid-cols-2 lg:gap-12">
             <ContactItem
-              heading="Call Us"
-              contactMethod="Phone"
+              heading={en ? 'Call Us' : 'اتصل بنا'}
+              contactMethod={en ? 'Call Us' : 'جوال'}
               contactValue="0530133103"
             />
             <ContactItem
-              heading="Mail Us"
-              contactMethod="Email"
+              heading={en ? 'Mail Us' : 'ارسل لنا'}
+              contactMethod={en ? 'Email' : 'البريد الالكتروني'}
               contactValue="Info@najmalmashriq.sa"
               contactValue2="Sales@najmalmashriq.sa"
               contactValue3="accounts@najmalmashriq.sa"
             />
             <ContactItem
-              heading="Our Location"
-              contactMethod="Address"
-              contactValue="Kingdome of Saudi Arabia - Riyadh - Al Sulay District - Exit 18 "
+              heading={en ? 'Our Location' : 'موقعنا'}
+              contactMethod={en ? 'Address' : 'العنوان'}
+              contactValue={
+                en
+                  ? 'Kingdome of Saudi Arabia - Riyadh - Al Sulay District - Exit 18 '
+                  : 'المملكة العربية السعودية - الرياض - الحي السولي - المخرج 18'
+              }
             />
             <ContactItem
-              heading="P.O.Box"
-              contactMethod=""
+              heading={en ? 'P.O.Box' : 'البريد'}
+              contactMethod={` `}
               contactValue="14331 "
             />
 
@@ -115,7 +122,7 @@ export default function Contact() {
           >
             <div className="text-center">
               <h3 className="text-lg font-bold leading-7 md:text-xl">
-                Get in Touch
+                {en ? 'Get in Touch' : 'تواصل معنا'}
               </h3>
             </div>{' '}
             {status.info.error && (
@@ -146,7 +153,7 @@ export default function Contact() {
                   name="Company Name"
                   required
                   maxLength={128}
-                  placeholder="Company Name"
+                  placeholder={en ? 'Company Name' : 'اسم الشركة'}
                   className="rounded-3xl border-2 border-white bg-black px-8 py-2 text-white outline-none"
                   onChange={handleOnChange}
                   value={inputs.companyName}
@@ -157,7 +164,7 @@ export default function Contact() {
                   id="email"
                   required
                   maxLength={200}
-                  placeholder="Your Email"
+                  placeholder={en ? 'Your Email' : 'البريد الالكتروني'}
                   className="rounded-3xl border-2 border-white bg-black px-8 py-2 text-white outline-none"
                   onChange={handleOnChange}
                   value={inputs.email}
@@ -169,7 +176,7 @@ export default function Contact() {
                   rows="10"
                   required
                   maxLength={1048576}
-                  placeholder="Additional Information"
+                  placeholder={en ? 'Your Message' : 'الرسالة'}
                   className="min-h-[16em] rounded-3xl border-2 border-white bg-black px-8 py-6 text-white outline-none"
                   onChange={handleOnChange}
                   value={inputs.message}
@@ -183,9 +190,9 @@ export default function Contact() {
                     {' '}
                     {!status.submitting
                       ? !status.submitted
-                        ? 'Submit'
-                        : 'Submitted'
-                      : 'Submitting...'}{' '}
+                        ? `${en ? 'Submit' : 'ارسال'}`
+                        : `${en ? 'Submitted' : 'تم الارسال'}`
+                      : `${en ? 'Submitting' : 'جاري الارسال'}`}{' '}
                   </button>{' '}
                 </div>{' '}
               </>
