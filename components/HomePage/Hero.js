@@ -6,7 +6,6 @@ import LangContext from '../../utils/store'
 
 function Hero() {
   const { en } = useContext(LangContext)
-  console.log(en)
 
   return (
     <div className="hero-dir mt-16">

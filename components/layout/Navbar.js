@@ -30,12 +30,22 @@ function Nav() {
                   <NavLink navName="Services" link="/services" />
                   <NavLink navName="equipments" link="/equipments" />
                   <NavLink navName="Contact" link="/contact" />
-                  <button onClick={changeLang}> {en ? 'ar' : 'en'} </button>
+                  <button
+                    onClick={changeLang}
+                    className="btn btn-outline min-w-[60px]"
+                  >
+                    {' '}
+                    {en ? 'ع' : 'en'}{' '}
+                  </button>
                 </div>
               </div>
             </div>
             {/* mobile menu */}
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-2 flex gap-4 md:hidden">
+              <button onClick={changeLang} className="btn btn-outline">
+                {' '}
+                {en ? 'ar' : 'en'}{' '}
+              </button>
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
