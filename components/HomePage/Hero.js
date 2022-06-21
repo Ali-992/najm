@@ -8,7 +8,7 @@ function Hero() {
   const { en } = useContext(LangContext)
 
   return (
-    <div className={`hero-dir mt-16`}>
+    <div className={`hero-dir mt-24`}>
       <Carousel
         autoPlay
         infiniteLoop
@@ -24,7 +24,7 @@ function Hero() {
           cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}
         />
         <SliderImg
-          src="/images/slider/slide-2.jpg"
+          src="/images/slider/slide-4.jpeg"
           heading1={en ? 'Get Your' : 'نقوم بتوفير'}
           heading2={en ? 'Heavy Equipements Now' : 'جميع المعدات المطلوية'}
           cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}

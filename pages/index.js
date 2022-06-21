@@ -13,7 +13,7 @@ export default function HomePage() {
       <AboutUs />
       <Services />
       <TrustedBy />
-      {/* <Equipments /> */}
+      <Equipments />
     </Page>
   )
 }

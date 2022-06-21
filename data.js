@@ -32,6 +32,14 @@ export const equipmentsData = [
     genre: 'cranes',
   },
   {
+    id: 41,
+    src: '/images/equipments/crane-5.jpeg',
+    title: 'Crane',
+    alt: 'Crane',
+    subTitle: 'ipsum dolor sit amet',
+    genre: 'cranes',
+  },
+  {
     id: 5,
     src: '/images/equipments/forklift-1.jpeg',
     title: 'Forklift',
@@ -138,14 +146,6 @@ export const equipmentsData = [
   {
     id: 18,
     src: '/images/equipments/towerlight-2.jpeg',
-    title: 'Tower Light',
-    alt: 'telehanlder',
-    subTitle: 'ipsum dolor sit amet',
-    genre: 'towerLights',
-  },
-  {
-    id: 19,
-    src: '/images/equipments/towerlight-3.jpeg',
     title: 'Tower Light',
     alt: 'telehanlder',
     subTitle: 'ipsum dolor sit amet',
