@@ -16,7 +16,7 @@ export default function Projects() {
   const [activeGenre, setactiveGenre] = useState('all')
   return (
     <Page title="Equipments">
-      <main className="mt-16  max-w-[95vw] text-white">
+      <main className="mt-24  max-w-[95vw] text-white">
         <div className={`${en ? '' : 'rtl'} mx-auto max-w-7xl`}>
           <Title> {en ? 'Equipments' : 'معدات'} </Title>
           <p className="-mt-6 text-gray-300">

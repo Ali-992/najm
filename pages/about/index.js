@@ -12,8 +12,8 @@ export default function About() {
 
   return (
     <Page title="About Us">
-      <div className={en ? '' : 'rtl'}>
-        <main className="mt-16  text-white ">
+      <div className={`${en ? '' : 'rtl'} mt-24`}>
+        <main className="mt-16  text-white">
           <div className="section-height   px-4 py-2 sm:px-6 md:py-8 lg:px-8">
             <div className="mx-auto max-w-7xl">
               <Title>{en ? 'About Us' : 'من نحن'}</Title>

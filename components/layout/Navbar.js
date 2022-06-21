@@ -116,11 +116,23 @@ function Nav() {
         >
           <div className="md:hidden" id="mobile-menu">
             <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
-              <NavLinksMobile navName="Home" link="/" />
-              <NavLinksMobile navName="About" link="/about" />
-              <NavLinksMobile navName="Services" link="/services" />
-              <NavLinksMobile navName="equipments" link="/equipments" />
-              <NavLinksMobile navName="Contact" link="/contact" />
+              <NavLinksMobile navName={en ? 'Home' : 'الرئيسية'} link="/" />
+              <NavLinksMobile
+                navName={en ? 'About Us' : 'من نحن'}
+                link="/about"
+              />
+              <NavLinksMobile
+                navName={en ? 'Services' : 'خدماتنا'}
+                link="/services"
+              />
+              <NavLinksMobile
+                navName={en ? 'equipments' : 'معدات'}
+                link="/equipments"
+              />
+              <NavLinksMobile
+                navName={en ? 'Contact' : 'تواصل معنا'}
+                link="/contact"
+              />
             </div>
           </div>
         </Transition>

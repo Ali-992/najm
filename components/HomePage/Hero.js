@@ -8,7 +8,7 @@ function Hero() {
   const { en } = useContext(LangContext)
 
   return (
-    <div className={`hero-dir mt-24`}>
+    <div className="mt-24">
       <Carousel
         autoPlay
         infiniteLoop
