@@ -45,7 +45,7 @@ function Nav() {
                   />
                   <button
                     onClick={changeLang}
-                    className="btn btn-outline min-w-[60px]"
+                    className="btn btn-info min-w-[60px]"
                   >
                     {' '}
                     {en ? 'ع' : 'en'}{' '}
@@ -55,9 +55,9 @@ function Nav() {
             </div>
             {/* mobile menu */}
             <div className="-mr-2 flex gap-4 md:hidden">
-              <button onClick={changeLang} className="btn btn-outline">
+              <button onClick={changeLang} className="btn btn-info">
                 {' '}
-                {en ? 'ar' : 'en'}{' '}
+                {en ? 'ع' : 'EN'}{' '}
               </button>
               <button
                 onClick={() => setIsOpen(!isOpen)}

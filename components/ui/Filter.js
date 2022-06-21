@@ -66,6 +66,12 @@ export default function Filter({
       >
         Tower Light
       </button>
+      <button
+        className={`btn-filter ${activeGenre === 'bobcats' ? 'active' : ''}`}
+        onClick={() => setactiveGenre('bobcats')}
+      >
+        Bobcats
+      </button>
     </div>
   )
 }
