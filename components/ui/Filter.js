@@ -72,6 +72,12 @@ export default function Filter({
       >
         Bobcats
       </button>
+      <button
+        className={`btn-filter ${activeGenre === 'logistics' ? 'active' : ''}`}
+        onClick={() => setactiveGenre('logistics')}
+      >
+        Logistics
+      </button>
     </div>
   )
 }

@@ -139,4 +139,11 @@ export const equipmentsData = [
     alt: 'bobcat',
     genre: 'bobcats',
   },
+  {
+    id: 199,
+    src: '/images/equipments/logistics.jpeg',
+    title: 'Logistics',
+    alt: 'logistics',
+    genre: 'logistics',
+  },
 ]

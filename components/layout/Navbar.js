@@ -36,7 +36,7 @@ function Nav() {
                     link="/services"
                   />
                   <NavLink
-                    navName={en ? 'equipments' : 'معدات'}
+                    navName={en ? 'Equipments' : 'معدات'}
                     link="/equipments"
                   />
                   <NavLink
@@ -126,7 +126,7 @@ function Nav() {
                 link="/services"
               />
               <NavLinksMobile
-                navName={en ? 'equipments' : 'معدات'}
+                navName={en ? 'Equipments' : 'معدات'}
                 link="/equipments"
               />
               <NavLinksMobile
