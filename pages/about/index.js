@@ -50,6 +50,26 @@ export default function About() {
                       ? 'With years of industry experience as a specialist heavy equipment rental company along with a team of highly skilled and qualified personnel, you can rely on us to provide you with an exceptional array of tools, knowledge and advice to get the job done - no matter the scale of the project. We also understand the individual needs and requirements of our clients and even offer the most competitive prices for all equipment and machinery throughout the country. safety initiatives.'
                       : 'مع سنوات من الخبرة في الصناعة كمتخصص ثقيل شركة تأجير المعدات مع فريق من ذوي المهارات العالية والموظفين المؤهلين ، يمكنك الاعتماد علينا لتزويدك مع مجموعة استثنائية من الأدوات والمعرفة والمشورة ل إنجاز المهمة - بغض النظر عن حجم المشروع. نحن أيضا فهم الاحتياجات والمتطلبات الفردية لدينا العملاء وحتى تقديم أكثر الأسعار تنافسية للجميع المعدات والآلات في جميع أنحاء البلاد. سلامة المبادرات.'}
                   </p>
+                  <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
+                    <span className="text-lg font-bold text-white">
+                      {en
+                        ? 'We are committed to the creation of long lasting relationships :'
+                        : 'نحن نؤمن بإنشاء علاقات طويلة الامد : '}
+                    </span>{' '}
+                    {en
+                      ? 'With our customers, our staff and our suppliers. We respect all of them in our business and will never disadvantage them to secure short-term gain. We will keep the promises we make to our clients'
+                      : 'مع عملائنا وموظفينا وموردينا. نحن نحترم جميعاً في أعمالنا ولن تضر بهم لتأمين مكاسب قصيرة المدى. سنفي بالوعود التي قطعناها على أنفسنا لعملائنا '}
+                  </p>
+                  <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
+                    <span className="text-lg font-bold text-white">
+                      {en
+                        ? 'We are passionate about our work: :'
+                        : 'نحن شغوفون بعملنا: : '}
+                    </span>{' '}
+                    {en
+                      ? 'Passion drives our commitment to continuous improvement and excellence in delivery, which generates happy customers and healthy profits'
+                      : 'يقود الشغف التزامنا بالتحسين المستمر و التميز في التسليم مما يولد عملاء سعداء وأرباح جيدة'}
+                  </p>
                 </div>
                 <div className=" mx-4 mt-8 grid  items-center gap-y-4 md:grid-cols-2 md:gap-x-20">
                   <ListItem

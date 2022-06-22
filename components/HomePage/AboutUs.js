@@ -26,6 +26,26 @@ export default function AboutUs() {
                 ? 'is a construction company that focuses heavily on leasing heavy and light equipment for construction and building purposes, event services, festivals and celebrations, as well as sports racing services and logistical services in all regions of the Kingdom of Saudi Arabia and the Arab Gulf states.'
                 : 'هي شركة إنشاءات تركز بشكل كبير على تأجير المعدات الثقيلة والخفيفة للأغراض الإنشائية و البناء و خدمات الفعاليات و المهرجانات و الاحتفالات و كذلك خدمات السباقات الرياضية و الخدمات اللوجستية في جميع مناطق المملكة العربية السعودية و دول الخليج العربي'}
             </p>
+            <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
+              <span className="text-lg font-bold text-white">
+                {en
+                  ? 'We are committed to the creation of long lasting relationships :'
+                  : 'نحن نؤمن بإنشاء علاقات طويلة الامد : '}
+              </span>{' '}
+              {en
+                ? 'With our customers, our staff and our suppliers. We respect all of them in our business and will never disadvantage them to secure short-term gain. We will keep the promises we make to our clients'
+                : 'مع عملائنا وموظفينا وموردينا. نحن نحترم جميعاً في أعمالنا ولن تضر بهم لتأمين مكاسب قصيرة المدى. سنفي بالوعود التي قطعناها على أنفسنا لعملائنا '}
+            </p>
+            <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
+              <span className="text-lg font-bold text-white">
+                {en
+                  ? 'We are passionate about our work: :'
+                  : 'نحن شغوفون بعملنا: : '}
+              </span>{' '}
+              {en
+                ? 'Passion drives our commitment to continuous improvement and excellence in delivery, which generates happy customers and healthy profits'
+                : 'يقود الشغف التزامنا بالتحسين المستمر و التميز في التسليم مما يولد عملاء سعداء وأرباح جيدة'}
+            </p>
             <div className="mx-4 mt-8">
               <ListItem
                 text={
