@@ -20,7 +20,15 @@ export default function Equipments() {
           />
           <HomePageEquipmentsCard
             src="/images/eq-section/telehandler.jpeg"
-            title={en ? 'Telehandler' : 'حفرة تلفونية'}
+            title={en ? 'Telehandler' : 'ماكينة المناولة'}
+          />
+          <HomePageEquipmentsCard
+            src="/images/equipments/forklift-2.jpeg"
+            title={en ? 'ForkLift' : 'رافعة شوكية'}
+          />
+          <HomePageEquipmentsCard
+            src="/images/equipments/bobcat.jpg"
+            title={en ? 'Bobcat' : 'بوب كات'}
           />
           <HomePageEquipmentsCard
             src="/images/eq-section/more.jpeg"

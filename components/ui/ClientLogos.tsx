@@ -126,7 +126,7 @@ const ClientLogos: any = () => {
         </SliderItem>
         <SliderItem width={250}>
           <Image
-            src="/images/clients/tamkeen.png"
+            src="/images/clients/boulevard.jpeg"
             width={250}
             height={100}
             alt=""
@@ -135,7 +135,61 @@ const ClientLogos: any = () => {
         </SliderItem>
         <SliderItem width={250}>
           <Image
-            src="/images/clients/tantora-festival.png"
+            src="/images/clients/hay2a.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/f1.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/wezaret-elreyada.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/f.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/rali-7a2l.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/ayamna.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/rali-sharkia.jpeg"
             width={250}
             height={100}
             alt=""

@@ -89,7 +89,8 @@ export default function Contact() {
             <ContactItem
               heading={en ? 'Call Us' : 'اتصل بنا'}
               contactMethod={en ? 'Call Us' : 'جوال'}
-              contactValue="0530133103"
+              contactValue="+9660530133103"
+              contactValue2="+9660508597312"
             />
             <ContactItem
               heading={en ? 'Mail Us' : 'ارسل لنا'}
@@ -103,8 +104,8 @@ export default function Contact() {
               contactMethod={en ? 'Address' : 'العنوان'}
               contactValue={
                 en
-                  ? 'Kingdome of Saudi Arabia - Riyadh - Al Sulay District - Exit 18 '
-                  : 'المملكة العربية السعودية - الرياض - الحي السولي - المخرج 18'
+                  ? 'Kingdome of Saudi Arabia - Riyadh'
+                  : 'المملكة العربية السعودية - الرياض'
               }
             />
             <ContactItem

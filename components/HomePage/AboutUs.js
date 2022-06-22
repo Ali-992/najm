@@ -23,15 +23,15 @@ export default function AboutUs() {
                 {en ? 'Najm Al Mashriq' : 'نجم المشرق'}
               </span>{' '}
               {en
-                ? 'is a construction company that heavily focused in the rental of heavy and light equipment for construction purposes. We have a team of highly skilled and experienced workers who are dedicated to providing the best service to our clients.'
-                : 'هي شركة إنشاءات تركز بشكل كبير على تأجير المعدات الثقيلة والخفيفة لأغراض البناء. لدينا فريق من العمال ذوي المهارات العالية والخبرة المتفانين لتقديم أفضل خدمة لعملائنا'}
+                ? 'is a construction company that focuses heavily on leasing heavy and light equipment for construction and building purposes, event services, festivals and celebrations, as well as sports racing services and logistical services in all regions of the Kingdom of Saudi Arabia and the Arab Gulf states.'
+                : 'هي شركة إنشاءات تركز بشكل كبير على تأجير المعدات الثقيلة والخفيفة للأغراض الإنشائية و البناء و خدمات الفعاليات و المهرجانات و الاحتفالات و كذلك خدمات السباقات الرياضية و الخدمات اللوجستية في جميع مناطق المملكة العربية السعودية و دول الخليج العربي'}
             </p>
             <div className="mx-4 mt-8">
               <ListItem
                 text={
                   en
-                    ? 'Construction and building equipment rental with operator'
-                    : 'تأجير معدات البناء والتشييد مع مشغل'
+                    ? 'Construction and building equipment rental with and without operator'
+                    : 'تأجير معدات البناء والتشييد مع مشغل و بدون مشغل'
                 }
               />
               <ListItem
@@ -44,8 +44,8 @@ export default function AboutUs() {
               <ListItem
                 text={
                   en
-                    ? 'General construction of residential building'
-                    : 'انشاء المباني السكنية'
+                    ? 'General construction of residential and non-residential building'
+                    : 'انشاء المباني السكنية و غير السكنية'
                 }
               />
               <ListItem
@@ -67,17 +67,17 @@ export default function AboutUs() {
           <div className="mx-4 mt-8 flex flex-1 flex-col justify-center">
             <AchievmentItem
               icon={<BsFillBookmarkCheckFill fill="#ffd188" size={36} />}
-              number="15 +"
+              number="12 +"
               text={en ? 'Years in Business' : 'سنوات في العمل'}
             />
             <AchievmentItem
               icon={<FaMedal fill="#ffd188" size={36} />}
-              number="2000 +"
+              number="1600 +"
               text={en ? 'Project Finished' : 'عدد المشاريع المنجزة'}
             />
             <AchievmentItem
               icon={<FaSmileBeam fill="#ffd188" size={36} />}
-              number="240 +"
+              number="210 +"
               text={en ? 'Satisfied Client' : 'عملاء راضون'}
             />
           </div>

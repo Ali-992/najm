@@ -1,7 +1,9 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { motion } from 'framer-motion'
+import LangContext from '../../utils/store'
 
 export default function Title({ children }) {
+  const { en } = useContext(LangContext)
   return (
     <motion.h2
       className="mb-8 text-2xl font-bold uppercase tracking-widest text-cta md:text-3xl"
