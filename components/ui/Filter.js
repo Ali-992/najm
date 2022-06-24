@@ -44,6 +44,14 @@ export default function Filter({
       </button>
       <button
         className={`btn-filter ${
+          activeGenre === 'scissor-lift' ? 'active' : ''
+        }`}
+        onClick={() => setactiveGenre('scissor-lift')}
+      >
+        Scissor Lift
+      </button>
+      <button
+        className={`btn-filter ${
           activeGenre === 'jsb-backhoes' ? 'active' : ''
         }`}
         onClick={() => setactiveGenre('jsb-backhoes')}

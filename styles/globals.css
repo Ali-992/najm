@@ -27,7 +27,7 @@
 
 .imageSpan {
   background-image: url('/images/services2.jpg');
-  height: 100%; /* background-color: #1e2a43; */
+  height: 100%;
   background-size: cover;
   background-position: center;
 }

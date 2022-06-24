@@ -63,8 +63,8 @@ export default function About() {
                   <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
                     <span className="text-lg font-bold text-white">
                       {en
-                        ? 'We are passionate about our work: :'
-                        : 'نحن شغوفون بعملنا: : '}
+                        ? 'We are passionate about our work:'
+                        : 'نحن شغوفون بعملنا:'}
                     </span>{' '}
                     {en
                       ? 'Passion drives our commitment to continuous improvement and excellence in delivery, which generates happy customers and healthy profits'
@@ -112,17 +112,17 @@ export default function About() {
               <div className="mx-4 mt-8  grid flex-1 flex-col justify-center gap-4 md:grid-cols-2">
                 <AchievmentItem
                   icon={<BsFillBookmarkCheckFill fill="#ffd188" size={36} />}
-                  number="15 +"
+                  number="12 +"
                   text={en ? 'Years in Business' : 'سنوات في العمل'}
                 />
                 <AchievmentItem
                   icon={<FaMedal fill="#ffd188" size={36} />}
-                  number="2000 +"
+                  number="1600 +"
                   text={en ? 'Project Finished' : 'عدد المشاريع المنجزة'}
                 />
                 <AchievmentItem
                   icon={<FaSmileBeam fill="#ffd188" size={36} />}
-                  number="240 +"
+                  number="210 +"
                   text={en ? 'Satisfied Client' : 'عملاء راضون'}
                 />
               </div>

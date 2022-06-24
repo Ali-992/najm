@@ -13,7 +13,7 @@ export default function Card({
   return (
     <div className="card bg-slate-700 shadow-xl lg:card-side">
       <figure>
-        <Image src={src} width={600} height={400} />
+        <Image src={src} width={600} height={400} className="object-cover" />
       </figure>
       <div className="card-body">
         <h2 className="card-title max-w-fit">{title}</h2>

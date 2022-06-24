@@ -18,8 +18,8 @@ export default function Services() {
                 src="/images/equipments2.jpeg"
                 title={
                   en
-                    ? 'Construction and building equipment rental with operator'
-                    : 'تأجير معدات البناء والتشييد مع مشغل'
+                    ? 'Construction and building equipment rental with and without operator'
+                    : 'تأجير معدات البناء والتشييد مع مشغل و بدون مشغل'
                 }
                 subTitle={
                   en
@@ -50,11 +50,11 @@ export default function Services() {
                 href="/equipments"
               />
               <Card
-                src="/images/building.jpg"
+                src="/images/arryan-hospital.png"
                 title={
                   en
-                    ? 'General construction of residential building'
-                    : 'انشاء المباني السكنية'
+                    ? 'General construction of residential and non-residential building'
+                    : 'انشاء المباني السكنية و غير السكنية'
                 }
                 subTitle={
                   en

@@ -39,8 +39,8 @@ export default function AboutUs() {
             <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
               <span className="text-lg font-bold text-white">
                 {en
-                  ? 'We are passionate about our work: :'
-                  : 'نحن شغوفون بعملنا: : '}
+                  ? 'We are passionate about our work:'
+                  : 'نحن شغوفون بعملنا : '}
               </span>{' '}
               {en
                 ? 'Passion drives our commitment to continuous improvement and excellence in delivery, which generates happy customers and healthy profits'

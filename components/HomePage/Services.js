@@ -15,8 +15,8 @@ function Services() {
             <div className="imageSpan  300ms flex h-96 items-center justify-center bg-cover bg-fixed transition-all hover:opacity-70">
               <h3 className="text-center text-lg font-bold text-white md:text-2xl">
                 {en
-                  ? 'General construction of residential building'
-                  : 'انشاء المباني السكنية'}
+                  ? 'General construction of residential and non-residential building'
+                  : 'انشاء المباني السكنية و غير السكنية'}
               </h3>
             </div>
             <div className="imageSpan  300ms flex h-96 items-center justify-center bg-cover bg-fixed transition-all hover:opacity-70">
@@ -29,8 +29,8 @@ function Services() {
             <div className="imageSpan  300ms order-1 col-span-2 flex h-96 items-center justify-center bg-cover bg-fixed transition-all hover:opacity-70 md:order-none">
               <h3 className="text-center text-lg font-bold text-white md:text-2xl">
                 {en
-                  ? 'Construction and building equipment rental with operator'
-                  : 'تأجير معدات البناء والتشييد مع مشغل'}
+                  ? 'Construction and building equipment rental with and without operator'
+                  : 'تأجير معدات البناء والتشييد مع مشغل و بدون مشغل'}
               </h3>
             </div>
             <div className="imageSpan  300ms flex h-96 items-center justify-center bg-cover bg-fixed transition-all hover:opacity-70">

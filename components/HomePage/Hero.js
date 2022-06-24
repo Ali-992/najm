@@ -18,19 +18,19 @@ function Hero() {
         interval={3000}
       >
         <SliderImg
-          src="/images/slider/slide-4.jpeg"
+          src="/images/slider/slide-22.jpg"
           heading1={en ? 'Get Your' : 'نقوم بتوفير'}
           heading2={en ? 'Heavy Equipements Now' : 'جميع المعدات المطلوية'}
           cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}
         />
         <SliderImg
-          src="/images/slider/slide-5.jpeg"
+          src="/images/slider/slide-11.jpg"
           heading1={en ? 'Get Your' : 'نقوم بتوفير'}
           heading2={en ? 'Heavy Equipements Now' : 'جميع المعدات المطلوية'}
           cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}
         />
         <SliderImg
-          src="/images/slider/slide-2.jpg"
+          src="/images/slider/slide-33.jpg"
           heading1={en ? 'Get Your' : 'نقوم بتوفير'}
           heading2={en ? 'Heavy Equipements Now' : 'جميع المعدات المطلوية'}
           cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}
