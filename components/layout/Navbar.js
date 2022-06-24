@@ -57,10 +57,10 @@ function Nav() {
             <div className="-mr-2 flex gap-4 md:hidden">
               <button
                 onClick={changeLang}
-                className="btn min-w-[60px] bg-heading text-white"
+                className="btn min-w-[60px] bg-heading text-white hover:bg-heading hover:text-white"
               >
                 {' '}
-                {en ? 'ع' : 'EN'}{' '}
+                {en ? 'ع' : 'en'}{' '}
               </button>
               <button
                 onClick={() => setIsOpen(!isOpen)}

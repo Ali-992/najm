@@ -19,10 +19,10 @@
     @apply bg-gray-50 text-black !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-heading;
   }
   .btn-filter {
-    @apply mr-2 min-w-[5rem] cursor-pointer rounded-md border-2 border-warning bg-transparent py-2 px-4 text-sm font-bold text-warning active:bg-warning active:text-black md:mr-4 lg:mr-8;
+    @apply mr-2 min-w-[5rem] cursor-pointer rounded-md border-2 border-heading bg-transparent py-2 px-4 text-sm font-bold text-black active:bg-heading active:text-black md:mr-4 lg:mr-8;
   }
   .active {
-    @apply bg-warning text-black;
+    @apply bg-heading text-white;
   }
 }
 
