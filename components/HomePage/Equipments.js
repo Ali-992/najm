@@ -6,7 +6,7 @@ import HomePageEquipmentsCard from '../ui/HomePageEquipmentsCard'
 export default function Equipments() {
   const { en } = useContext(LangContext)
   return (
-    <div className="bg-slate-800 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
+    <div className="bg-zinc-200 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
       <div className={`mx-auto max-w-7xl  py-2  md:py-8 ${en ? '' : 'rtl'}`}>
         <Title>{en ? 'Equipment' : 'معدات'}</Title>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -23,11 +23,11 @@ export default function Equipments() {
             title={en ? 'Telehandler' : 'ماكينة المناولة'}
           />
           <HomePageEquipmentsCard
-            src="/images/equipments/forklift-2.jpeg"
+            src="/images/equipments/forklift-4.jpeg"
             title={en ? 'ForkLift' : 'رافعة شوكية'}
           />
           <HomePageEquipmentsCard
-            src="/images/equipments/bobcat.jpg"
+            src="/images/equipments/bobcat1.jpeg"
             title={en ? 'Bobcat' : 'بوب كات'}
           />
           <HomePageEquipmentsCard

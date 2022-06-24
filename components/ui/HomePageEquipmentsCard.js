@@ -13,7 +13,7 @@ export default function HomePageEquipmentsCard({ title, src }) {
         <h2 className="card-title">{title}</h2>
         <div className="card-actions justify-end">
           <Link href="/equipments">
-            <button className="btn btn-primary">
+            <button className="btn border-0 bg-heading text-white hover:bg-red-500 hover:text-black">
               {en ? 'view more' : 'عرض المزيد'}
             </button>
           </Link>

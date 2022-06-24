@@ -186,7 +186,7 @@ export default function Contact() {
                   {' '}
                   <button
                     type="submit"
-                    className="rounded-3xl bg-white px-8 py-2 text-black"
+                    className="rounded-3xl bg-black px-8 py-2 text-white"
                   >
                     {' '}
                     {!status.submitting

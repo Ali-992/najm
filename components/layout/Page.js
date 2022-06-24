@@ -28,7 +28,7 @@ export default function Page({ children, title, description }) {
       <header>
         <Navbar />
       </header>
-      <main className="bg-dark1">{children}</main>
+      <main>{children}</main>
       <Contact />
       <Footer />
     </>

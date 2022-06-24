@@ -9,7 +9,7 @@ function Nav() {
   const { en, changeLang } = useContext(LangContext)
   const [isOpen, setIsOpen] = useState(false)
   return (
-    <div className="fixed top-0 left-0 z-20 w-full bg-slate-700">
+    <div className="fixed top-0 left-0 z-20 w-full bg-gray-800">
       <nav className={`mx-auto max-w-7xl ${en ? '' : 'rtl'}`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex h-24 items-center justify-between ">
@@ -45,7 +45,7 @@ function Nav() {
                   />
                   <button
                     onClick={changeLang}
-                    className="btn btn-info min-w-[60px]"
+                    className="btn min-w-[60px] bg-heading text-white hover:bg-white hover:text-black"
                   >
                     {' '}
                     {en ? 'ع' : 'en'}{' '}
@@ -55,7 +55,10 @@ function Nav() {
             </div>
             {/* mobile menu */}
             <div className="-mr-2 flex gap-4 md:hidden">
-              <button onClick={changeLang} className="btn btn-info">
+              <button
+                onClick={changeLang}
+                className="btn min-w-[60px] bg-heading text-white"
+              >
                 {' '}
                 {en ? 'ع' : 'EN'}{' '}
               </button>

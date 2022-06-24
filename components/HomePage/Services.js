@@ -7,7 +7,7 @@ import LanguageContext from '../../utils/store'
 function Services() {
   const { en } = useContext(LanguageContext)
   return (
-    <div className=" bg-slate-900 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
+    <div className="bg-zinc-100 px-4 py-2 sm:px-6 md:py-8 lg:px-12">
       <div className={`section-height mx-auto max-w-7xl ${en ? '' : 'rtl'}`}>
         <Title>{en ? 'Our Services' : 'ما نقدمه من خدمات'}</Title>
         <Link href="/services">

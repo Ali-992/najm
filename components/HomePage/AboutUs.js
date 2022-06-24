@@ -18,7 +18,7 @@ export default function AboutUs() {
         <Title>{en ? 'About Us' : 'من نحن'}</Title>
         <div className="flex flex-col items-start justify-center md:flex-row">
           <div className="flex-1 md:mt-10">
-            <p className="mx-4 w-5/6 leading-8 text-gray-300">
+            <p className="mx-4 w-5/6 leading-8">
               <span className="text-lg font-bold text-heading">
                 {en ? 'Najm Al Mashriq' : 'نجم المشرق'}
               </span>{' '}
@@ -26,8 +26,8 @@ export default function AboutUs() {
                 ? 'is a construction company that focuses heavily on leasing heavy and light equipment for construction and building purposes, event services, festivals and celebrations, as well as sports racing services and logistical services in all regions of the Kingdom of Saudi Arabia and the Arab Gulf states.'
                 : 'هي شركة إنشاءات تركز بشكل كبير على تأجير المعدات الثقيلة والخفيفة للأغراض الإنشائية و البناء و خدمات الفعاليات و المهرجانات و الاحتفالات و كذلك خدمات السباقات الرياضية و الخدمات اللوجستية في جميع مناطق المملكة العربية السعودية و دول الخليج العربي'}
             </p>
-            <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
-              <span className="text-lg font-bold text-white">
+            <p className="mx-4 mt-4 w-5/6 leading-8 ">
+              <span className="text-lg font-bold ">
                 {en
                   ? 'We are committed to the creation of long lasting relationships :'
                   : 'نحن نؤمن بإنشاء علاقات طويلة الامد : '}
@@ -36,8 +36,8 @@ export default function AboutUs() {
                 ? 'With our customers, our staff and our suppliers. We respect all of them in our business and will never disadvantage them to secure short-term gain. We will keep the promises we make to our clients'
                 : 'مع عملائنا وموظفينا وموردينا. نحن نحترم جميعاً في أعمالنا ولن تضر بهم لتأمين مكاسب قصيرة المدى. سنفي بالوعود التي قطعناها على أنفسنا لعملائنا '}
             </p>
-            <p className="mx-4 mt-4 w-5/6 leading-8 text-gray-300">
-              <span className="text-lg font-bold text-white">
+            <p className="mx-4 mt-4 w-5/6 leading-8 ">
+              <span className="text-lg font-bold">
                 {en
                   ? 'We are passionate about our work:'
                   : 'نحن شغوفون بعملنا : '}
@@ -86,17 +86,17 @@ export default function AboutUs() {
           </div>
           <div className="mx-4 mt-8 flex flex-1 flex-col justify-center">
             <AchievmentItem
-              icon={<BsFillBookmarkCheckFill fill="#ffd188" size={36} />}
+              icon={<BsFillBookmarkCheckFill fill="#d71d1d" size={36} />}
               number="12 +"
               text={en ? 'Years in Business' : 'سنوات في العمل'}
             />
             <AchievmentItem
-              icon={<FaMedal fill="#ffd188" size={36} />}
+              icon={<FaMedal fill="#d71d1d" size={36} />}
               number="1600 +"
               text={en ? 'Project Finished' : 'عدد المشاريع المنجزة'}
             />
             <AchievmentItem
-              icon={<FaSmileBeam fill="#ffd188" size={36} />}
+              icon={<FaSmileBeam fill="#d71d1d" size={36} />}
               number="210 +"
               text={en ? 'Satisfied Client' : 'عملاء راضون'}
             />
