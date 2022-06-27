@@ -54,19 +54,24 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <Link href="/">
-              <div
-                className={`${
-                  en ? 'mr-4' : 'ml-4'
-                } h-14 w-28 cursor-pointer overflow-hidden sm:mr-0 md:h-14 md:w-40`}
+
+            <div
+              className={`${
+                en ? 'mr-4' : 'ml-4'
+              } h-14 w-28 cursor-pointer overflow-hidden sm:mr-0 md:h-14 md:w-40`}
+            >
+              <a
+                href="https://www.vision2030.gov.sa"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
                   src="/images/vision.png"
                   alt="Najm AlMashriq"
                   className="h-full w-full"
                 />
-              </div>
-            </Link>
+              </a>
+            </div>
             {/* mobile menu */}
             <div className="-mr-2 flex gap-4 md:hidden">
               {/* <button
