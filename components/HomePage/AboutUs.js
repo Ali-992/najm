@@ -10,11 +10,11 @@ export default function AboutUs() {
   const { en } = useContext(LanguageContext)
   return (
     <div
-      className={`section-height px-4 py-2 sm:px-6 md:py-8 lg:px-8 ${
+      className={`section-height  px-4 py-2 sm:px-6 md:py-8 lg:px-8 ${
         en ? '' : 'rtl'
       }`}
     >
-      <div className="mx-auto max-w-7xl">
+      <div className="  mx-auto max-w-7xl">
         <Title>{en ? 'About Us' : 'من نحن'}</Title>
         <div className="flex flex-col items-start justify-center md:flex-row">
           <div className="flex-1 md:mt-10">

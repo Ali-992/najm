@@ -8,6 +8,7 @@ import LangContext from '../../utils/store'
 function Nav() {
   const { en, changeLang } = useContext(LangContext)
   const [isOpen, setIsOpen] = useState(false)
+  const closeModal = () => setIsOpen(false)
   return (
     <div className="fixed top-0 left-0 z-20 w-full bg-gray-800">
       <nav className={`mx-auto max-w-7xl ${en ? '' : 'rtl'}`}>
@@ -27,7 +28,7 @@ function Nav() {
                   />
                 </div>
               </Link>
-              <div className="hidden md:block">
+              <div className="mx-auto hidden md:block">
                 <div className="flex items-baseline space-x-4">
                   <NavLink navName={en ? 'Home' : 'الرئيسية'} link="/" />
                   <NavLink navName={en ? 'About Us' : 'من نحن'} link="/about" />
@@ -45,7 +46,7 @@ function Nav() {
                   />
                   <button
                     onClick={changeLang}
-                    className="btn min-w-[60px] bg-heading text-white hover:bg-white hover:text-black"
+                    className="btn  min-w-[50px] bg-heading text-white hover:bg-white hover:text-black"
                   >
                     {' '}
                     {en ? 'ع' : 'en'}{' '}
@@ -53,15 +54,28 @@ function Nav() {
                 </div>
               </div>
             </div>
+            <Link href="/">
+              <div
+                className={`${
+                  en ? 'mr-4' : 'ml-4'
+                } h-14 w-28 cursor-pointer overflow-hidden sm:mr-0 md:h-14 md:w-40`}
+              >
+                <img
+                  src="/images/vision.png"
+                  alt="Najm AlMashriq"
+                  className="h-full w-full"
+                />
+              </div>
+            </Link>
             {/* mobile menu */}
             <div className="-mr-2 flex gap-4 md:hidden">
-              <button
+              {/* <button
                 onClick={changeLang}
                 className="btn min-w-[60px] bg-heading text-white hover:bg-heading hover:text-white"
               >
                 {' '}
                 {en ? 'ع' : 'en'}{' '}
-              </button>
+              </button> */}
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -117,6 +131,7 @@ function Nav() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
+          {/* mobile menu */}
           <div className="md:hidden" id="mobile-menu">
             <div className="space-y-1 px-2 pt-2 pb-3 sm:px-3">
               <NavLinksMobile navName={en ? 'Home' : 'الرئيسية'} link="/" />
@@ -136,6 +151,12 @@ function Nav() {
                 navName={en ? 'Contact' : 'تواصل معنا'}
                 link="/contact"
               />
+              <button
+                onClick={changeLang}
+                className="btn min-w-[60px] bg-heading text-white hover:bg-heading hover:text-white"
+              >
+                {en ? 'العربية' : 'English'}
+              </button>
             </div>
           </div>
         </Transition>

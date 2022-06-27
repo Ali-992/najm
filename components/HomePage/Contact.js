@@ -89,8 +89,8 @@ export default function Contact() {
             <ContactItem
               heading={en ? 'Call Us' : 'اتصل بنا'}
               contactMethod={en ? 'Call Us' : 'جوال'}
-              contactValue="+9660530133103"
-              contactValue2="+9660508597312"
+              contactValue={en ? '+966-0530133103' : '966-0530133103+'}
+              contactValue2={en ? '+966-0508597312' : '966-0508597312+'}
             />
             <ContactItem
               heading={en ? 'Mail Us' : 'ارسل لنا'}

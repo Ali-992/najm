@@ -35,6 +35,12 @@ function Hero() {
           heading2={en ? 'Heavy Equipements Now' : 'جميع المعدات المطلوية'}
           cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}
         />
+        <SliderImg
+          src="/images/slider/slide-44.jpg"
+          heading1={en ? 'Get Your' : 'نقوم بتوفير'}
+          heading2={en ? 'Heavy Equipements Now' : 'جميع المعدات المطلوية'}
+          cta={en ? 'GET A QUOTE' : 'احصل على عرض سعر'}
+        />
       </Carousel>
     </div>
   )

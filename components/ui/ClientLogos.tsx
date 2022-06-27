@@ -57,6 +57,15 @@ const ClientLogos: any = () => {
         </SliderItem>
         <SliderItem width={250}>
           <Image
+            src="/images/vision.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>{' '}
+        <SliderItem width={250}>
+          <Image
             src="/images/clients/expertise-5.jpg"
             width={250}
             height={100}
@@ -145,6 +154,15 @@ const ClientLogos: any = () => {
         <SliderItem width={250}>
           <Image
             src="/images/clients/f1.jpeg"
+            width={250}
+            height={100}
+            alt=""
+            objectFit="contain"
+          />
+        </SliderItem>{' '}
+        <SliderItem width={250}>
+          <Image
+            src="/images/clients/jedah-cornich.jpeg"
             width={250}
             height={100}
             alt=""
