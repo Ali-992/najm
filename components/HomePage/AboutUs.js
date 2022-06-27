@@ -51,6 +51,14 @@ export default function AboutUs() {
             </div>
 
             <div className="mx-4 mt-8">
+              <h2 className="mb-3  ml-4 mt-4 w-5/6 text-3xl font-bold tracking-wide text-slate-700 underline underline-offset-8">
+                {en ? 'Vision 2030' : 'رؤية 2030'}
+              </h2>
+              <p className="mx-4  w-5/6 text-lg leading-6 tracking-wider">
+                {en
+                  ? 'Under the leadership of the Custodian of the Two Holy Mosques, Vision 2030 was launched, a roadmap drawn up by His Royal Highness the Crown Prince, to harness the strengths God bestowed upon us – our strategic position, investment power and place at the center of Arab and Islamic worlds. The full attention of the Kingdom, and our Leadership, is on harnessing our potential to achieve our ambitions.'
+                  : 'بدعم ورعاية خادم الحرمين الشريفين حفظه الله، أُطلقت رؤية المملكة 2030، وهي رؤية سمو ولي العهد لمستقبل هذا الوطن العظيم، والتي تسعى لاستثمار مكامن قوّتنا التي حبانا الله بها، من موقع استراتيجي متميز، وقوة استثمارية رائدة، وعمق عربيّ وإسلاميّ، حيث تولي القيادة لذلك كل الاهتمام، وتسخّر كل الإمكانات لتحقيق الطموحات.'}
+              </p>
               <ListItem
                 text={
                   en
@@ -106,14 +114,6 @@ export default function AboutUs() {
               text={en ? 'Satisfied Client' : 'عملاء راضون'}
             />
           </div>
-          <h2 className="mb-3  ml-4 mt-4 w-5/6 text-3xl font-bold tracking-wide text-slate-700 underline underline-offset-8">
-            {en ? 'Vision 2030' : 'رؤية 2030'}
-          </h2>
-          <p className="mx-4  w-5/6 text-lg leading-6 tracking-wider">
-            {en
-              ? 'Under the leadership of the Custodian of the Two Holy Mosques, Vision 2030 was launched, a roadmap drawn up by His Royal Highness the Crown Prince, to harness the strengths God bestowed upon us – our strategic position, investment power and place at the center of Arab and Islamic worlds. The full attention of the Kingdom, and our Leadership, is on harnessing our potential to achieve our ambitions.'
-              : 'بدعم ورعاية خادم الحرمين الشريفين حفظه الله، أُطلقت رؤية المملكة 2030، وهي رؤية سمو ولي العهد لمستقبل هذا الوطن العظيم، والتي تسعى لاستثمار مكامن قوّتنا التي حبانا الله بها، من موقع استراتيجي متميز، وقوة استثمارية رائدة، وعمق عربيّ وإسلاميّ، حيث تولي القيادة لذلك كل الاهتمام، وتسخّر كل الإمكانات لتحقيق الطموحات.'}
-          </p>
         </div>
       </div>
     </div>
