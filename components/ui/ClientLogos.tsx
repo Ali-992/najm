@@ -57,7 +57,7 @@ const ClientLogos: any = () => {
         </SliderItem>
         <SliderItem width={250}>
           <Image
-            src="/images/vision.jpeg"
+            src="/images/vision.png"
             width={250}
             height={100}
             alt=""
