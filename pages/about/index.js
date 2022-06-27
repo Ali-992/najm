@@ -48,7 +48,7 @@ export default function About() {
                   <p className="mx-4  w-5/6 leading-6 tracking-wider">
                     {en
                       ? 'With years of industry experience as a specialist heavy equipment rental company along with a team of highly skilled and qualified personnel, you can rely on us to provide you with an exceptional array of tools, knowledge and advice to get the job done - no matter the scale of the project. We also understand the individual needs and requirements of our clients and even offer the most competitive prices for all equipment and machinery throughout the country. safety initiatives.'
-                      : 'مع سنوات من الخبرة في الصناعة كمتخصص ثقيل شركة تأجير المعدات مع فريق من ذوي المهارات العالية والموظفين المؤهلين ، يمكنك الاعتماد علينا لتزويدك مع مجموعة استثنائية من الأدوات والمعرفة والمشورة ل إنجاز المهمة - بغض النظر عن حجم المشروع. نحن أيضا فهم الاحتياجات والمتطلبات الفردية لدينا العملاء وحتى تقديم أكثر الأسعار تنافسية للجميع المعدات والآلات في جميع أنحاء البلاد. سلامة المبادرات.'}
+                      : 'مع سنوات من الخبرة في المجال كشركة متخصصة في تأجير المعدات الثقيلة جنبًا إلى جنب مع فريق من الموظفين ذوي المهارات العالية والمؤهلين، يمكنك الاعتماد علينا لتزويدك بمجموعة استثنائية من الأدوات والمعرفة والمشورة لإنجاز المهمة - بغض النظر عن حجم المشروع. نتفهم أيضًا الاحتياجات والمتطلبات الفردية لعملائنا ونقوم بتقديم أكثر الأسعار تنافسية لجميع المعدات والآلات في جميع أنحاء البلاد. مع الألتزام بمبادرات السلامة.'}
                   </p>
                   <p className="mx-4 mt-4 w-5/6 leading-8 tracking-wider">
                     <span className="text-lg font-bold ">
@@ -58,7 +58,7 @@ export default function About() {
                     </span>{' '}
                     {en
                       ? 'With our customers, our staff and our suppliers. We respect all of them in our business and will never disadvantage them to secure short-term gain. We will keep the promises we make to our clients'
-                      : 'مع عملائنا وموظفينا وموردينا. نحن نحترم جميعاً في أعمالنا ولن تضر بهم لتأمين مكاسب قصيرة المدى. سنفي بالوعود التي قطعناها على أنفسنا لعملائنا '}
+                      : 'مع عملائنا وموظفينا وموردينا. نحن نحترمهم جميعًا في أعمالنا ولن نؤذيهم أبدًا لتأمين مكاسب على المدى القصير. سنفي بالوعود التي نقطعها لعملائنا'}
                   </p>
                   <p className="mx-4 mt-4 w-5/6 leading-8 tracking-wider">
                     <span className="text-lg font-bold ">

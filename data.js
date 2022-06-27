@@ -181,4 +181,32 @@ export const equipmentsData = [
     alt: 'logistics',
     genre: 'logistics',
   },
+  {
+    id: 24,
+    src: '/images/equipments/man-lift.jpeg',
+    title: 'Man-lift',
+    alt: 'Man-lift',
+    genre: 'Manlifts',
+  },
+  {
+    id: 25,
+    src: '/images/equipments/man-lift1.jpg',
+    title: 'Manlift',
+    alt: 'Manlift',
+    genre: 'Manlifts',
+  },
+  {
+    id: 26,
+    src: '/images/equipments/man-lift-and-scissor-lift.jpg',
+    title: 'Manlift & Scissorlift',
+    alt: 'Manlift & Scissorlift',
+    genre: 'scissor-lift',
+  },
+  {
+    id: 27,
+    src: '/images/equipments/scissor-lift.jpg',
+    title: 'Scissorlift',
+    alt: 'Scissorlift',
+    genre: 'scissor-lift',
+  },
 ]
