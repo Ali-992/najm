@@ -24,7 +24,7 @@ export default function About() {
                       ? 'Najm Al Mashriq provides rental of heavy and light equipements'
                       : ' نجم المشرق للمقاولات و تأجير المعدات'}
                   </h3>
-                  <p className="mx-4  mb-6 w-5/6 leading-6 ">
+                  <p className="mx-4  mb-6 w-5/6 leading-6 tracking-wider">
                     <span className="text-lg font-bold text-heading">
                       {en ? 'Najm Al Mashriq' : 'نجم المشرق'}
                     </span>{' '}
@@ -35,7 +35,7 @@ export default function About() {
                   <h3 className="mb-3  ml-4 w-5/6 text-lg tracking-wide underline underline-offset-4">
                     {en ? 'Our Goal' : 'هدفنا'}
                   </h3>
-                  <p className="mx-4 mb-6  w-5/6 leading-6 ">
+                  <p className="mx-4 mb-6  w-5/6 leading-6 tracking-wider">
                     {en
                       ? 'Our continual aim is to provide the best products and services to our customers as a leading heavy equipment rental company, while staying cost-effective. We continue to use the most efficient, current technology while adhering to the strictest safety initiatives.'
                       : 'هدفنا المستمر هو تقديم أفضل المنتجات والخدمات لعملائنا كشركة رائدة في تأجير المعدات الثقيلة ، مع الحفاظ على التكلفة. نواصل استخدام أحدث التقنيات وأكثرها كفاءة مع الالتزام بمبادرات السلامة الأكثر صرامة'}
@@ -45,12 +45,12 @@ export default function About() {
                       ? 'COMMITTED TO PROVIDING THE BEST'
                       : 'ملتزمون بتقديم الأفضل'}
                   </h3>
-                  <p className="mx-4  w-5/6 leading-6 ">
+                  <p className="mx-4  w-5/6 leading-6 tracking-wider">
                     {en
                       ? 'With years of industry experience as a specialist heavy equipment rental company along with a team of highly skilled and qualified personnel, you can rely on us to provide you with an exceptional array of tools, knowledge and advice to get the job done - no matter the scale of the project. We also understand the individual needs and requirements of our clients and even offer the most competitive prices for all equipment and machinery throughout the country. safety initiatives.'
                       : 'مع سنوات من الخبرة في الصناعة كمتخصص ثقيل شركة تأجير المعدات مع فريق من ذوي المهارات العالية والموظفين المؤهلين ، يمكنك الاعتماد علينا لتزويدك مع مجموعة استثنائية من الأدوات والمعرفة والمشورة ل إنجاز المهمة - بغض النظر عن حجم المشروع. نحن أيضا فهم الاحتياجات والمتطلبات الفردية لدينا العملاء وحتى تقديم أكثر الأسعار تنافسية للجميع المعدات والآلات في جميع أنحاء البلاد. سلامة المبادرات.'}
                   </p>
-                  <p className="mx-4 mt-4 w-5/6 leading-8 ">
+                  <p className="mx-4 mt-4 w-5/6 leading-8 tracking-wider">
                     <span className="text-lg font-bold ">
                       {en
                         ? 'We are committed to the creation of long lasting relationships :'
@@ -60,7 +60,7 @@ export default function About() {
                       ? 'With our customers, our staff and our suppliers. We respect all of them in our business and will never disadvantage them to secure short-term gain. We will keep the promises we make to our clients'
                       : 'مع عملائنا وموظفينا وموردينا. نحن نحترم جميعاً في أعمالنا ولن تضر بهم لتأمين مكاسب قصيرة المدى. سنفي بالوعود التي قطعناها على أنفسنا لعملائنا '}
                   </p>
-                  <p className="mx-4 mt-4 w-5/6 leading-8 ">
+                  <p className="mx-4 mt-4 w-5/6 leading-8 tracking-wider">
                     <span className="text-lg font-bold ">
                       {en
                         ? 'We are passionate about our work:'
@@ -71,6 +71,14 @@ export default function About() {
                       : 'يقود الشغف التزامنا بالتحسين المستمر و التميز في التسليم مما يولد عملاء سعداء وأرباح جيدة'}
                   </p>
                 </div>
+                <h2 className="mb-3  ml-4 mt-4 w-5/6 text-3xl font-bold tracking-wide text-slate-700 underline underline-offset-8">
+                  {en ? 'Vision 2030' : 'رؤية 2030'}
+                </h2>
+                <p className="mx-4  w-5/6 text-lg leading-6 tracking-wider">
+                  {en
+                    ? 'Under the leadership of the Custodian of the Two Holy Mosques, Vision 2030 was launched, a roadmap drawn up by His Royal Highness the Crown Prince, to harness the strengths God bestowed upon us – our strategic position, investment power and place at the center of Arab and Islamic worlds. The full attention of the Kingdom, and our Leadership, is on harnessing our potential to achieve our ambitions.'
+                    : 'بدعم ورعاية خادم الحرمين الشريفين حفظه الله، أُطلقت رؤية المملكة 2030، وهي رؤية سمو ولي العهد لمستقبل هذا الوطن العظيم، والتي تسعى لاستثمار مكامن قوّتنا التي حبانا الله بها، من موقع استراتيجي متميز، وقوة استثمارية رائدة، وعمق عربيّ وإسلاميّ، حيث تولي القيادة لذلك كل الاهتمام، وتسخّر كل الإمكانات لتحقيق الطموحات.'}
+                </p>
                 <div className=" mx-4 mt-8 grid  items-center gap-y-4 md:grid-cols-2 md:gap-x-20">
                   <ListItem
                     text={
